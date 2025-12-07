@@ -80,8 +80,6 @@ Given an event’s geolocation and focal depth, estimate its magnitude. Magnitud
 
 ## Dataset
 
-
-
 The dataset for this project is a comprehensive global earthquake catalog, curated to maximize the effectiveness of deep learning—specifically artificial neural networks (ANNs)—for magnitude prediction.
 
 - **Source:** [USGS Earthquake Database on Kaggle](https://www.kaggle.com/datasets/usgs/earthquake-database)
@@ -263,36 +261,36 @@ These results support the use of neural networks for earthquake magnitude predic
 ## References
 
 
-[1] Gutenberg, B. and Richter, C.F. (1944). Frequency of earthquakes in California. _Bulletin of the Seismological Society of America_, 34(4), 185–188.
-[2] Kanamori, H. and Brodsky, E.E. (2004). The physics of earthquakes. _Reports on Progress in Physics_, 67(8), 1429–1496. doi:10.1088/0034-4885/67/8/R03.
-[3] U.S. Geological Survey (USGS). ComCat Documentation: https://earthquake.usgs.gov/data/comcat/.
-[4] Ross, Z.E., Meier, M.-A., and Hauksson, E. (2018). Generalized seismic phase detection with deep learning. _Bulletin of the Seismological Society of America_, 108(5A), 2894–2901. doi:10.1785/0120180080.
-[5] Mousavi, S.M., Ellsworth, W.L., Zhu, W., Chuang, L.Y., and Beroza, G.C. (2020). Earthquake Transformer: an attentive deep-learning model for simultaneous earthquake detection and phase picking. _Nature Communications_, 11, 3952. doi:10.1038/s41467-020-17591-w.
-[6] Perol, T., Gharbi, M., and Denolle, M. (2018). Convolutional neural network for earthquake detection and location. _Science Advances_, 4(2), e1700578. doi:10.1126/sciadv.1700578.
-[7] Breiman, L. (2001). Random forests. _Machine Learning_, 45(1), 5–32. doi:10.1023/A:1010933404324.
-[8] Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. _Journal of the Royal Statistical Society: Series B_, 58(1), 267–288.
-[9] Hochreiter, S. and Schmidhuber, J. (1997). Long short-term memory. _Neural Computation_, 9(8), 1735–1780. doi:10.1162/neco.1997.9.8.1735.
-[10] Kong, Q., Trugman, D.T., Ross, Z.E., Bianco, M.J., Meade, B.J., and Gerstoft, P. (2019). Machine learning in seismology: Turning data into insights. _Seismological Research Letters_, 90(1), 3–14. doi:10.1785/0220180259.
-[11] Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
-[12] Bergen, K.J., Johnson, P.A., de Hoop, M.V., and Beroza, G.C. (2019). Machine learning for data-driven discovery in solid Earth geoscience. _Science_, 363(6433), eaau0323. doi:10.1126/science.aau0323.
-[13] Allen, R.M. and Melgar, D. (2019). Earthquake early warning: Advances, scientific challenges, and societal needs. _Annual Review of Earth and Planetary Sciences_, 47, 361–388. doi:10.1146/annurev-earth-053018-060457.
-[14] Yoon, C.E., O’Reilly, O., Bergen, K.J., and Beroza, G.C. (2015). Earthquake detection through computationally efficient similarity search. _Science Advances_, 1(11), e1501057. doi:10.1126/sciadv.1501057.
-[15] Zhu, W., Mousavi, S.M., and Beroza, G.C. (2020). Seismic signal denoising and decomposition using deep learning. _IEEE Transactions on Geoscience and Remote Sensing_, 58(9), 6104–6116. doi:10.1109/TGRS.2020.2979657.
-[16] Meier, M.-A., Ross, Z.E., Ramachandran, K., et al. (2019). Reliable real-time seismic signal/noise discrimination with machine learning. _Journal of Geophysical Research: Solid Earth_, 124(1), 788–800. doi:10.1029/2018JB016661.
-[17] Lomax, A., Michelini, A., and Curtis, A. (2012). Earthquake location, direct, global-search methods. _Encyclopedia of Solid Earth Geophysics_, 225–232. doi:10.1007/978-90-481-8702-7_44.
-[18] McBrearty, I.W. and White, R.S. (2021). Deep learning for earthquake location. _Geophysical Journal International_, 226(3), 2016–2032. doi:10.1093/gji/ggab170.
-[19] Mousavi, S.M., Zhu, W., Sheng, Y., and Beroza, G.C. (2019). Unsupervised clustering of seismic signals using deep convolutional autoencoders. _IEEE Geoscience and Remote Sensing Letters_, 16(11), 1693–1697. doi:10.1109/LGRS.2019.2916869.
-[20] Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
-[21] Allen, R.M. (2012). Earthquake early warning systems: Current status and perspectives. _Annual Review of Earth and Planetary Sciences_, 40, 387–409. doi:10.1146/annurev-earth-042711-105528.
-[22] Trugman, D.T. and Shearer, P.M. (2017). Application of machine learning to earthquake phase picking. _Bulletin of the Seismological Society of America_, 107(2), 522–530. doi:10.1785/0120160245.
-[23] Kong, Q., Trugman, D.T., Ross, Z.E., Bianco, M.J., Meade, B.J., and Gerstoft, P. (2019). Machine learning in seismology: Turning data into insights. _Seismological Research Letters_, 90(1), 3–14. doi:10.1785/0220180259.
-[24] Zhu, W., Beroza, G.C., and Ellsworth, W.L. (2019). Deep learning for seismic phase picking. _Seismological Research Letters_, 90(1), 74–80. doi:10.1785/0220180312.
-[25] Mousavi, S.M., Ellsworth, W.L., and Beroza, G.C. (2021). Deep learning for earthquake cataloging: Advances, challenges, and opportunities. _Nature Reviews Earth & Environment_, 2, 798–814. doi:10.1038/s43017-021-00237-1.
-[26] Allen, R.M., Gasparini, P., Kamigaichi, O., and Bose, M. (2009). The status of earthquake early warning around the world: An introductory overview. _Seismological Research Letters_, 80(5), 682–693. doi:10.1785/gssrl.80.5.682.
-[27] Yamada, M., and Ide, S. (2008). Detection and characterization of microseismic events using continuous wavelet transform. _Geophysical Journal International_, 175(3), 1155–1166. doi:10.1111/j.1365-246X.2008.03992.x.
-[28] Malfante, M., Ripepe, M., and Marchetti, E. (2018). Machine learning for volcano-seismic signals. _Frontiers in Earth Science_, 6, 144. doi:10.3389/feart.2018.00144.
-[29] Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
-[30] Mousavi, S.M., and Beroza, G.C. (2022). A machine-learning approach for earthquake magnitude estimation. _Geophysical Research Letters_, 49(2), e2021GL096123. doi:10.1029/2021GL096123.
-[31] Allen, R.M., and Kanamori, H. (2003). The potential for earthquake early warning in southern California. _Science_, 300(5620), 786–789. doi:10.1126/science.1080912.
-[32] Bergen, K.J., and Beroza, G.C. (2018). Machine learning for data-driven discovery in solid Earth geoscience. _Science_, 363(6433), eaau0323. doi:10.1126/science.aau0323.
-[33] Trugman, D.T., and Shearer, P.M. (2018). Machine learning for earthquake phase picking. _Bulletin of the Seismological Society of America_, 108(5A), 2894–2901. doi:10.1785/0120180080.
+1. Gutenberg, B. and Richter, C.F. (1944). Frequency of earthquakes in California. _Bulletin of the Seismological Society of America_, 34(4), 185–188.
+2. Kanamori, H. and Brodsky, E.E. (2004). The physics of earthquakes. _Reports on Progress in Physics_, 67(8), 1429–1496. doi:10.1088/0034-4885/67/8/R03.
+3. U.S. Geological Survey (USGS). ComCat Documentation: https://earthquake.usgs.gov/data/comcat/.
+4. Ross, Z.E., Meier, M.-A., and Hauksson, E. (2018). Generalized seismic phase detection with deep learning. _Bulletin of the Seismological Society of America_, 108(5A), 2894–2901. doi:10.1785/0120180080.
+5. Mousavi, S.M., Ellsworth, W.L., Zhu, W., Chuang, L.Y., and Beroza, G.C. (2020). Earthquake Transformer: an attentive deep-learning model for simultaneous earthquake detection and phase picking. _Nature Communications_, 11, 3952. doi:10.1038/s41467-020-17591-w.
+6. Perol, T., Gharbi, M., and Denolle, M. (2018). Convolutional neural network for earthquake detection and location. _Science Advances_, 4(2), e1700578. doi:10.1126/sciadv.1700578.
+7. Breiman, L. (2001). Random forests. _Machine Learning_, 45(1), 5–32. doi:10.1023/A:1010933404324.
+8. Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. _Journal of the Royal Statistical Society: Series B_, 58(1), 267–288.
+9. Hochreiter, S. and Schmidhuber, J. (1997). Long short-term memory. _Neural Computation_, 9(8), 1735–1780. doi:10.1162/neco.1997.9.8.1735.
+10. Kong, Q., Trugman, D.T., Ross, Z.E., Bianco, M.J., Meade, B.J., and Gerstoft, P. (2019). Machine learning in seismology: Turning data into insights. _Seismological Research Letters_, 90(1), 3–14. doi:10.1785/0220180259.
+11. Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
+12. Bergen, K.J., Johnson, P.A., de Hoop, M.V., and Beroza, G.C. (2019). Machine learning for data-driven discovery in solid Earth geoscience. _Science_, 363(6433), eaau0323. doi:10.1126/science.aau0323.
+13. Allen, R.M. and Melgar, D. (2019). Earthquake early warning: Advances, scientific challenges, and societal needs. _Annual Review of Earth and Planetary Sciences_, 47, 361–388. doi:10.1146/annurev-earth-053018-060457.
+14. Yoon, C.E., O’Reilly, O., Bergen, K.J., and Beroza, G.C. (2015). Earthquake detection through computationally efficient similarity search. _Science Advances_, 1(11), e1501057. doi:10.1126/sciadv.1501057.
+15. Zhu, W., Mousavi, S.M., and Beroza, G.C. (2020). Seismic signal denoising and decomposition using deep learning. _IEEE Transactions on Geoscience and Remote Sensing_, 58(9), 6104–6116. doi:10.1109/TGRS.2020.2979657.
+16. Meier, M.-A., Ross, Z.E., Ramachandran, K., et al. (2019). Reliable real-time seismic signal/noise discrimination with machine learning. _Journal of Geophysical Research: Solid Earth_, 124(1), 788–800. doi:10.1029/2018JB016661.
+17. Lomax, A., Michelini, A., and Curtis, A. (2012). Earthquake location, direct, global-search methods. _Encyclopedia of Solid Earth Geophysics_, 225–232. doi:10.1007/978-90-481-8702-7_44.
+18. McBrearty, I.W. and White, R.S. (2021). Deep learning for earthquake location. _Geophysical Journal International_, 226(3), 2016–2032. doi:10.1093/gji/ggab170.
+19. Mousavi, S.M., Zhu, W., Sheng, Y., and Beroza, G.C. (2019). Unsupervised clustering of seismic signals using deep convolutional autoencoders. _IEEE Geoscience and Remote Sensing Letters_, 16(11), 1693–1697. doi:10.1109/LGRS.2019.2916869.
+20. Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
+21. Allen, R.M. (2012). Earthquake early warning systems: Current status and perspectives. _Annual Review of Earth and Planetary Sciences_, 40, 387–409. doi:10.1146/annurev-earth-042711-105528.
+22. Trugman, D.T. and Shearer, P.M. (2017). Application of machine learning to earthquake phase picking. _Bulletin of the Seismological Society of America_, 107(2), 522–530. doi:10.1785/0120160245.
+23. Kong, Q., Trugman, D.T., Ross, Z.E., Bianco, M.J., Meade, B.J., and Gerstoft, P. (2019). Machine learning in seismology: Turning data into insights. _Seismological Research Letters_, 90(1), 3–14. doi:10.1785/0220180259.
+24. Zhu, W., Beroza, G.C., and Ellsworth, W.L. (2019). Deep learning for seismic phase picking. _Seismological Research Letters_, 90(1), 74–80. doi:10.1785/0220180312.
+25. Mousavi, S.M., Ellsworth, W.L., and Beroza, G.C. (2021). Deep learning for earthquake cataloging: Advances, challenges, and opportunities. _Nature Reviews Earth & Environment_, 2, 798–814. doi:10.1038/s43017-021-00237-1.
+26. Allen, R.M., Gasparini, P., Kamigaichi, O., and Bose, M. (2009). The status of earthquake early warning around the world: An introductory overview. _Seismological Research Letters_, 80(5), 682–693. doi:10.1785/gssrl.80.5.682.
+27. Yamada, M., and Ide, S. (2008). Detection and characterization of microseismic events using continuous wavelet transform. _Geophysical Journal International_, 175(3), 1155–1166. doi:10.1111/j.1365-246X.2008.03992.x.
+28. Malfante, M., Ripepe, M., and Marchetti, E. (2018). Machine learning for volcano-seismic signals. _Frontiers in Earth Science_, 6, 144. doi:10.3389/feart.2018.00144.
+29. Kong, Q., Allen, R.M., Schreier, L., and Kwon, Y.-W. (2016). MyShake: A smartphone seismic network for earthquake early warning and beyond. _Science Advances_, 2(2), e1501055. doi:10.1126/sciadv.1501055.
+30. Mousavi, S.M., and Beroza, G.C. (2022). A machine-learning approach for earthquake magnitude estimation. _Geophysical Research Letters_, 49(2), e2021GL096123. doi:10.1029/2021GL096123.
+31. Allen, R.M., and Kanamori, H. (2003). The potential for earthquake early warning in southern California. _Science_, 300(5620), 786–789. doi:10.1126/science.1080912.
+32. Bergen, K.J., and Beroza, G.C. (2018). Machine learning for data-driven discovery in solid Earth geoscience. _Science_, 363(6433), eaau0323. doi:10.1126/science.aau0323.
+33. Trugman, D.T., and Shearer, P.M. (2018). Machine learning for earthquake phase picking. _Bulletin of the Seismological Society of America_, 108(5A), 2894–2901. doi:10.1785/0120180080.
