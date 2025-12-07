@@ -2,12 +2,12 @@
 
 ## Authors
 
-- Karman Singh Sidhu — Roll No. 102215066
-- Vishal Puri — Roll No. 102215142
-- Shashwat Vashisht — Roll No. 102215119
-- Aditya Prakash — Roll No. 102215072
+- Karman Singh Sidhu — 102215066
+- Vishal Puri —  102215142
+- Shashwat Vashisht — 102215119
+- Aditya Prakash — 102215072
 
--## Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Repository Overview](#repository-overview)
@@ -243,7 +243,7 @@ print(f'Predicted Magnitude: {predicted_mag[0,0]:.2f}')
 
 For the full workflow and additional details, see `earthQuakePredictor.ipynb`.
 
-## Result
+
 
 
 ## Results
